@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "origin": "^0.5.8",
+    "remote": "^0.2.6"
+  }
+}
