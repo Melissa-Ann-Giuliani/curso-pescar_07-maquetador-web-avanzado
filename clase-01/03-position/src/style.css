@@ -1,0 +1,35 @@
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #bbb9b9;
+    /* Tipografía segura -> Tdoos los SEo van a tener alguna de estas tipografías*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    max-width: 900px;
+    border: 1px solid crimson;
+    margin: auto;
+}
+
+.caja-padre {
+    width: 600px;
+    height: 600px;
+    margin: 40px auto;
+    border: 5px solid gold;
+}
+
+.caja {
+    background-color: maroon;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    line-height: 100px;
+}

@@ -24,7 +24,7 @@
 @font-face {
     font-family: 'Medieval Sharp';
     font-style: normal;
-    font-weight: 300;
+    font-weight: 700;
     src: 
         local('Medieval Sharp Bold'),
         url('fonts/MedievalSharp-Bold.woff') format('woff');
@@ -35,7 +35,7 @@ bold */
 @font-face {
     font-family: 'Medieval Sharp';
     font-style: italic;
-    font-weight: 300;
+    font-weight: 700;
     src: 
         local('Medieval Sharp Bold Oblique'),
         url('fonts/MedievalSharp-BoldOblique.woff') format('woff');
@@ -65,7 +65,7 @@ body {
 }
 
 h1 {
-    font-family: 'Medieval Sharp Bold', sans-serif;
+    font-family: 'Medieval Sharp', sans-serif;
     font-style: normal;
     font-weight: 700;
 }
