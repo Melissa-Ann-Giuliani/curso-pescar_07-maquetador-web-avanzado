@@ -1,0 +1,28 @@
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+    /* Tipografía segura -> Tdoos los SEo van a tener alguna de estas tipografías*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    max-width: 900px;
+    border: 1px solid crimson;
+    margin: auto;
+}
+
+.red-text {
+    color: crimson;
+}
+
+/* 1. TTF (TrueType Font */
+/* 2. OTF (OpenType Font)*/
+/* 3. WOFF (Web Open Font Format) */
+/* 4. WOFF2 (el rey actual) */
+/* 5. EOT (embedded OpenType */
