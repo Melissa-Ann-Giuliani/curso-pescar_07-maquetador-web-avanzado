@@ -1,0 +1,79 @@
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #bbb9b9;
+    /* Tipografía segura -> Tdoos los SEo van a tener alguna de estas tipografías*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    max-width: 900px;
+    border: 1px solid crimson;
+    margin: auto;
+}
+
+.caja-padre {
+    width: 600px;
+    height: 600px;
+    margin: 40px auto;
+    border: 5px solid gold;
+}
+
+.caja {
+    background-color: maroon;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    line-height: 100px;
+}
+
+/*Por defecto todos los elementos html estan posicionados como estaticos*/
+/* position: static; */
+
+.static {
+    position: static;
+    background-color: darkblue;
+    top: 10px;
+    bottom: 50px;
+    right: 40px;
+    left: 100px;
+    /* ninguna de estas cuatro posiciones hace algo en static */
+}
+
+.relative {
+    position: relative;
+    background-color: green;
+    left: 0; /* left y right -> x */
+    /* right: 100px; */
+    /* top: 100px; */
+    bottom: 0;
+}
+
+/*  El div con la clase .absolute salio del flujo. Es como su nunca lo hubiera definido dentro del html*/
+/*  Ese elemento que esta avsolute  si previamente nungun contenedor tiene definido un position de static. El div.absolute se a posicion con respecto al viewport (a la ventana del navegador) */
+/* Que si el contenedor esta posicionado de alguna manera */ 
+
+.absolute {
+    position: static;
+    background-color: orange;
+    right: -50px;
+    top: -50px;
+    border-radius: 50%;
+}
+
+/*  */
+
+.fixed {
+    position: fixed;
+    background-color: purple;
+    right: 50px;
+    bottom: 50px;
+    border-radius: 50%;
+}
